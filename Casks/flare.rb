@@ -1,11 +1,11 @@
 cask "flare" do
   version "1.10"
-  sha256 "67f97bad922aea75c0765e853ddad82c96b005de7fba7b93cc8bbb349ee26758"
+  sha256 "c5f30a819ace38247dfe9c84603c030e04ea32692ea4eec8b554a69c8606f9d7"
 
-  url "https://github.com/dchernopolskiy/Flare/releases/download/v#{version}/FlareJobMonitor.zip"
+  url "https://github.com/dchernopolskii/Flare/releases/download/v#{version}/FlareJobMonitor.zip"
   name "Flare"
   desc "Monitor job postings across company career sites"
-  homepage "https://github.com/dchernopolskiy/Flare"
+  homepage "https://github.com/dchernopolskii/Flare"
 
   livecheck do
     url :url
@@ -13,7 +13,7 @@ cask "flare" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "FlareJobMonitor.app"
 
