@@ -1,6 +1,6 @@
 cask "flare" do
-  version "1.16"
-  sha256 "518869199a5e3ec7721d9700e978a8bc8835a890f4033f89275d88553cf87a29"
+  version "1.17"
+  sha256 "f45e181a21628963efe78fa22c9f229282beeac74721be6d76df8e611ca783a7"
 
   url "https://github.com/dchernopolskii/Flare/releases/download/v#{version}/FlareJobMonitor.zip"
   name "Flare"
